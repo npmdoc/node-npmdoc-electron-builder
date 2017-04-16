@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/electron-userland/electron-builder"
-
-    >electron-builder (v17.0.0)</a>
+    <a href="https://github.com/electron-userland/electron-builder">electron-builder (v17.0.0)</a>
 </h1>
-<h4>A complete solution to package and build a ready for distribution Electron app for MacOS, Windows and Linux with “auto update” support out of the box</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<h4>A complete solution to package and build a ready for distribution Electron app for MacOS, Windows and Linux with â€œauto updateâ€ support out of the box</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.electron-builder">module electron-builder</a><ol>
 
@@ -187,7 +180,7 @@
         this.isTwoPackageJsonProjectLayoutUsed = true;
         this.eventEmitter = new (_events || _load_events()).EventEmitter();
         this.tempDirManager = new (_tmp || _load_tmp()).TmpDir();
-        this._repositoryInfo = new (_electronBuilderUtil || _load_electronBuilderUtil()).Lazy(() =&#x3e; (0, (_repositoryInfo || _load_repositoryInfo
+        this._repositoryInfo = new (_electronBuilderUtil || _load_electronBuilderUtil()).Lazy(() =&gt; (0, (_repositoryInfo || _load_repositoryInfo
 ()).getRepositoryInfo)(this.projectDir, this.metadata, this.devMetadata));
         this.afterPackHandlers = [];
         this.projectDir = options.projectDir == null ? process.cwd() : _path.resolve(options.projectDir);
@@ -206,11 +199,11 @@
         this.afterPackHandlers.push(handler);
     }
     artifactCreated(handler) {
-        addHandler(this.eventEmitter, &#x22;artifactCreated&#x22;, handler);
+        addHandler(this.eventEmitter, "artifactCreated", handler);
         return this;
     }
     dispatchArtifactCreated(event) {
-        this.eventEmitter.emit(&#x22;artifactCreated&#x22;, event);
+        this.eventEmitter.emit("artifactCreated", event);
     }
     build() {
         var _this = this;
@@ -219,18 +212,18 @@
             //noinspection JSDeprecatedSymbols
             const devMetadataFromOptions = _this.options.devMetadata;
             if (devMetadataFromOptions != null) {
-                (0, (_log || _load_log()).warn)(&#x22;devMetadata is deprecated, please use config instead&#x22;);
+                (0, (_log || _load_log()).warn)("devMetadata is deprecated, please use config instead");
             }
             let configPath = null;
             let configFromOptions = _this.options.config;
-            if (typeof configFromOptions === &#x22;string&#x22;) {
+            if (typeof configFromOptions === "string") {
                 // it is a path to config file
                 configPath = configFromOptions;
                 configFromOptions = null;
             }
             if (devMetadataFromOptions != null) {
                 if (configFromOptions != null) {
-                    throw new Error(&#x22;devMetadata and config cannot be used in conjunction&#x22;);
+                    throw new Error("devMetadata and config cannot be used in conjunction");
                 }
                 configFromOptions = devMetadataFromOptions.build;
             }
@@ -246,7 +239,7 @@ projectDir) : (0, (_readPackageJson || _load_readPackageJson()).doLoadConfig)(_p
                     delete extraMetadata.build;
                 }
                 if (extraMetadata.directories != null) {
-                    (0, (_log || _load_log()).warn)(`--em.directories is deprecated, please specify as --em.build.directories&#x22;`);
+                    (0, (_log || _load_log()).warn)(`--em.directories is deprecated, please specify as --em.build.directories"`);
                     (0, (_deepAssign || _load_deepAssign()).deepAssign)(config, { directories: extraMetadata.directories });
                     delete extraMetadata.directories;
                 }
@@ -280,11 +273,11 @@ projectDir) : (0, (_readPackageJson || _load_readPackageJson()).doLoadConfig)(_p
         return this.name;
     }
     createTarget(type) {
-        for (var _len = arguments.length, archs = Array(_len &#x3e; 1 ? _len - 1 : 0), _key = 1; _key &#x3c; _len; _key++) {
+        for (var _len = arguments.length, archs = Array(_len &gt; 1 ? _len - 1 : 0), _key = 1; _key &lt; _len; _key++) {
             archs[_key - 1] = arguments[_key];
         }
 
-        if (type == null &#x26;&#x26; (archs == null || archs.length === 0)) {
+        if (type == null &amp;&amp; (archs == null || archs.length === 0)) {
             return new Map([[this, new Map()]]);
         }
         const archToType = new Map();
@@ -330,7 +323,7 @@ projectDir) : (0, (_readPackageJson || _load_readPackageJson()).doLoadConfig)(_p
     <ul>
     <li>description and source-code<pre class="apidocCodePre">class Target {
     constructor(name) {
-        let isAsyncSupported = arguments.length &#x3e; 1 &#x26;&#x26; arguments[1] !== undefined ? arguments[1] : true;
+        let isAsyncSupported = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : true;
 
         this.name = name;
         this.isAsyncSupported = isAsyncSupported;
@@ -352,13 +345,13 @@ projectDir) : (0, (_readPackageJson || _load_readPackageJson()).doLoadConfig)(_p
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function archFromString(name) {
-    if (name === &#x22;x64&#x22;) {
+    if (name === "x64") {
         return Arch.x64;
     }
-    if (name === &#x22;ia32&#x22;) {
+    if (name === "ia32") {
         return Arch.ia32;
     }
-    if (name === &#x22;armv7l&#x22;) {
+    if (name === "armv7l") {
         return Arch.armv7l;
     }
     throw new Error(`Unsupported arch ${name}`);
@@ -380,19 +373,19 @@ projectDir) : (0, (_readPackageJson || _load_readPackageJson()).doLoadConfig)(_p
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">...
 ```js
-&#x22;use strict&#x22;
+"use strict"
 
-const builder = require(&#x22;electron-builder&#x22;)
+const builder = require("electron-builder")
 const Platform = builder.Platform
 
 // Promise is returned
 builder.<span class="apidocCodeKeywordSpan">build</span>({
 targets: Platform.MAC.createTarget(),
 config: {
- &#x22;//&#x22;: &#x22;build options, see https://goo.gl/ZhRfla&#x22;
+ "//": "build options, see https://goo.gl/ZhRfla"
 }
 })
-.then(() =&#x3e; {
+.then(() =&gt; {
   // handle result
 ...</pre></li>
     </ul>
@@ -412,7 +405,7 @@ config: {
         config: {
             directories: {
                 // https://github.com/electron-userland/electron-forge/blob/master/src/makers/generic/zip.js
-                output: _path.resolve(appDir, &#x22;..&#x22;, &#x22;make&#x22;)
+                output: _path.resolve(appDir, "..", "make")
             }
         }
     }, options));
@@ -433,7 +426,7 @@ config: {
     const targets = new Map();
     for (const platform of platforms) {
         const archs = platform === (_electronBuilderCore || _load_electronBuilderCore()).Platform.MAC ? [(_electronBuilderCore ||
-_load_electronBuilderCore()).Arch.x64] : arch === &#x22;all&#x22; ? [(_electronBuilderCore || _load_electronBuilderCore()).Arch.x64, (_electronBuilderCore
+_load_electronBuilderCore()).Arch.x64] : arch === "all" ? [(_electronBuilderCore || _load_electronBuilderCore()).Arch.x64, (_electronBuilderCore
  || _load_electronBuilderCore()).Arch.ia32] : [(0, (_electronBuilderCore || _load_electronBuilderCore()).archFromString)(arch ==
 null ? process.arch : arch)];
         const archToType = new Map();
@@ -457,7 +450,7 @@ null ? process.arch : arch)];
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function getArchSuffix(arch) {
-    return arch === Arch.x64 ? &#x22;&#x22; : `-${Arch[arch]}`;
+    return arch === Arch.x64 ? "" : `-${Arch[arch]}`;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -486,7 +479,7 @@ null ? process.arch : arch)];
     constructor(metadata, info, buildVersion) {
         this.metadata = metadata;
         this.info = info;
-        this.description = (0, (_electronBuilderUtil || _load_electronBuilderUtil()).smarten)(this.metadata.description || &#x22;&#x22;);
+        this.description = (0, (_electronBuilderUtil || _load_electronBuilderUtil()).smarten)(this.metadata.description || "");
         this.version = metadata.version;
         this.buildNumber = this.config.buildVersion || process.env.TRAVIS_BUILD_NUMBER || process.env.APPVEYOR_BUILD_NUMBER || process
 .env.CIRCLE_BUILD_NUM || process.env.BUILD_NUMBER;
@@ -507,7 +500,7 @@ null ? process.arch : arch)];
     }
     get versionInWeirdWindowsForm() {
         const parsedVersion = new (_semver || _load_semver()).SemVer(this.version);
-        return `${parsedVersion.major}.${parsedVersion.minor}.${parsedVersion.patch}.${this.buildNumber || &#x22;0&#x22;}`;
+        return `${parsedVersion.major}.${parsedVersion.minor}.${parsedVersion.patch}.${this.buildNumber || "0"}`;
     }
     get companyName() {
         return this.metadata.author.name;
@@ -517,14 +510,14 @@ null ? process.arch : arch)];
         if (this.config.appId != null) {
             appId = this.config.appId;
         }
-        const generateDefaultAppId = () =&#x3e; {
+        const generateDefaultAppId = () =&gt; {
             return `com.electron.${this.metadata.name.toLowerCase()}`;
         };
-        if (appId != null &#x26;&#x26; (appId === &#x22;your.id&#x22; || (0, (_electronBuilderUtil || _load_electronBuilderUtil()).isEmptyOrSpaces)(
+        if (appId != null &amp;&amp; (appId === "your.id" || (0, (_electronBuilderUtil || _load_electronBuilderUtil()).isEmptyOrSpaces)(
 appId))) {
             const incorrectAppId = appId;
             appId = generateDefaultAppId();
-            (0, (_log || _load_log()).warn)(`Do not use &#x22;${incorrectAppId}&#x22; as appId, &#x22;${appId}&#x22; will be used instead`);
+            (0, (_log || _load_log()).warn)(`Do not use "${incorrectAppId}" as appId, "${appId}" will be used instead`);
         }
         return appId == null ? generateDefaultAppId() : appId;
     }
@@ -536,7 +529,7 @@ appId))) {
         if (copyright != null) {
             return copyright;
         }
-        return `Copyright © ${new Date().getFullYear()} ${this.metadata.author.name || this.productName}`;
+        return `Copyright Â© ${new Date().getFullYear()} ${this.metadata.author.name || this.productName}`;
     }
     computePackageUrl() {
         var _this = this;
@@ -547,7 +540,7 @@ appId))) {
                 return url;
             }
             const info = yield _this.info.repositoryInfo;
-            return info == null || info.type !== &#x22;github&#x22; ? null : `https://${info.domain}/${info.user}/${info.project}`;
+            return info == null || info.type !== "github" ? null : `https://${info.domain}/${info.user}/${info.project}`;
         })();
     }
 }</pre></li>
@@ -563,3 +556,4 @@ appId))) {
     ]
 </div>
 </div>
+</body></html>

@@ -1,140 +1,142 @@
-<svg height="2190" width="720" xmlns="http://www.w3.org/2000/svg">
-<rect height="2190" fill="#555" width="720"></rect>
+<svg height="2222" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="2222" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-03 13:17:49 +0000  1428758 byte  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-03 13:17:49 +0000    11427 byte  README.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-03 13:17:49 +0000    31944 byte  certs/root_certs.keychain</tspan>
-<tspan x="10" y="74">  3.  2017-04-03 13:17:49 +0000     3799 byte  out/appInfo.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-03 13:17:49 +0000     5710 byte  out/appInfo.js.map</tspan>
-<tspan x="10" y="106">  5.  2017-04-03 13:17:49 +0000     6382 byte  out/asar.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-03 13:17:49 +0000     8921 byte  out/asar.js.map</tspan>
-<tspan x="10" y="138">  7.  2017-04-03 13:17:49 +0000    19853 byte  out/asarUtil.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-03 13:17:49 +0000    29131 byte  out/asarUtil.js.map</tspan>
-<tspan x="10" y="170">  9.  2017-04-03 13:17:49 +0000     9266 byte  out/builder.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-03 13:17:49 +0000    13642 byte  out/builder.js.map</tspan>
-<tspan x="10" y="202"> 11.  2017-04-03 13:17:49 +0000     2333 byte  out/cli/build-cli.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-03 13:17:49 +0000     2478 byte  out/cli/build-cli.js.map</tspan>
-<tspan x="10" y="234"> 13.  2017-04-03 13:17:49 +0000     4115 byte  out/cli/cliOptions.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-03 13:17:49 +0000     6706 byte  out/cli/cliOptions.js.map</tspan>
-<tspan x="10" y="266"> 15.  2017-04-03 13:17:49 +0000     3673 byte  out/cli/create-self-signed-cert.js</tspan>
-<tspan x="10" y="282"> 16.  2017-04-03 13:17:49 +0000     3826 byte  out/cli/create-self-signed-cert.js.map</tspan>
-<tspan x="10" y="298"> 17.  2017-04-03 13:17:49 +0000     2347 byte  out/cli/install-app-deps.js</tspan>
-<tspan x="10" y="314"> 18.  2017-04-03 13:17:49 +0000     2474 byte  out/cli/install-app-deps.js.map</tspan>
-<tspan x="10" y="330"> 19.  2017-04-03 13:17:49 +0000     2035 byte  out/cli/node-gyp-rebuild.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-03 13:17:49 +0000     2202 byte  out/cli/node-gyp-rebuild.js.map</tspan>
-<tspan x="10" y="362"> 21.  2017-04-03 13:17:49 +0000    13140 byte  out/codeSign.js</tspan>
-<tspan x="10" y="378"> 22.  2017-04-03 13:17:49 +0000    17716 byte  out/codeSign.js.map</tspan>
-<tspan x="10" y="394"> 23.  2017-04-03 13:17:49 +0000    70653 byte  out/electron-builder.d.ts</tspan>
-<tspan x="10" y="410"> 24.  2017-04-03 13:17:49 +0000      531 byte  out/errorMessages.js</tspan>
-<tspan x="10" y="426"> 25.  2017-04-03 13:17:49 +0000      609 byte  out/errorMessages.js.map</tspan>
-<tspan x="10" y="442"> 26.  2017-04-03 13:17:49 +0000     8329 byte  out/fileMatcher.js</tspan>
-<tspan x="10" y="458"> 27.  2017-04-03 13:17:49 +0000    13067 byte  out/fileMatcher.js.map</tspan>
-<tspan x="10" y="474"> 28.  2017-04-03 13:17:49 +0000     4295 byte  out/fileTransformer.js</tspan>
-<tspan x="10" y="490"> 29.  2017-04-03 13:17:49 +0000     5571 byte  out/fileTransformer.js.map</tspan>
-<tspan x="10" y="506"> 30.  2017-04-03 13:17:49 +0000      965 byte  out/forge/forge-maker.js</tspan>
-<tspan x="10" y="522"> 31.  2017-04-03 13:17:49 +0000      971 byte  out/forge/forge-maker.js.map</tspan>
-<tspan x="10" y="538"> 32.  2017-04-03 13:17:49 +0000     2126 byte  out/index.js</tspan>
-<tspan x="10" y="554"> 33.  2017-04-03 13:17:49 +0000     1238 byte  out/index.js.map</tspan>
-<tspan x="10" y="570"> 34.  2017-04-03 13:17:49 +0000     3501 byte  out/linuxPackager.js</tspan>
-<tspan x="10" y="586"> 35.  2017-04-03 13:17:49 +0000     4522 byte  out/linuxPackager.js.map</tspan>
-<tspan x="10" y="602"> 36.  2017-04-03 13:17:49 +0000    13845 byte  out/macPackager.js</tspan>
-<tspan x="10" y="618"> 37.  2017-04-03 13:17:49 +0000    18949 byte  out/macPackager.js.map</tspan>
-<tspan x="10" y="634"> 38.  2017-04-03 13:17:49 +0000       50 byte  out/metadata.js</tspan>
-<tspan x="10" y="650"> 39.  2017-04-03 13:17:49 +0000     9896 byte  out/metadata.js.map</tspan>
-<tspan x="10" y="666"> 40.  2017-04-03 13:17:49 +0000       54 byte  out/options/linuxOptions.js</tspan>
-<tspan x="10" y="682"> 41.  2017-04-03 13:17:49 +0000     6078 byte  out/options/linuxOptions.js.map</tspan>
-<tspan x="10" y="698"> 42.  2017-04-03 13:17:49 +0000       52 byte  out/options/macOptions.js</tspan>
-<tspan x="10" y="714"> 43.  2017-04-03 13:17:49 +0000     7782 byte  out/options/macOptions.js.map</tspan>
-<tspan x="10" y="730"> 44.  2017-04-03 13:17:49 +0000       52 byte  out/options/winOptions.js</tspan>
-<tspan x="10" y="746"> 45.  2017-04-03 13:17:49 +0000    12856 byte  out/options/winOptions.js.map</tspan>
-<tspan x="10" y="762"> 46.  2017-04-03 13:17:49 +0000    24863 byte  out/packager.js</tspan>
-<tspan x="10" y="778"> 47.  2017-04-03 13:17:49 +0000    34208 byte  out/packager.js.map</tspan>
-<tspan x="10" y="794"> 48.  2017-04-03 13:17:49 +0000     4394 byte  out/packager/dirPackager.js</tspan>
-<tspan x="10" y="810"> 49.  2017-04-03 13:17:49 +0000     5747 byte  out/packager/dirPackager.js.map</tspan>
-<tspan x="10" y="826"> 50.  2017-04-03 13:17:49 +0000    11135 byte  out/packager/mac.js</tspan>
-<tspan x="10" y="842"> 51.  2017-04-03 13:17:49 +0000    14874 byte  out/packager/mac.js.map</tspan>
-<tspan x="10" y="858"> 52.  2017-04-03 13:17:49 +0000       53 byte  out/packagerApi.js</tspan>
-<tspan x="10" y="874"> 53.  2017-04-03 13:17:49 +0000     2703 byte  out/packagerApi.js.map</tspan>
-<tspan x="10" y="890"> 54.  2017-04-03 13:17:49 +0000    25972 byte  out/platformPackager.js</tspan>
-<tspan x="10" y="906"> 55.  2017-04-03 13:17:49 +0000    39286 byte  out/platformPackager.js.map</tspan>
-<tspan x="10" y="922"> 56.  2017-04-03 13:17:49 +0000    24284 byte  out/publish/PublishManager.js</tspan>
-<tspan x="10" y="938"> 57.  2017-04-03 13:17:49 +0000    35149 byte  out/publish/PublishManager.js.map</tspan>
-<tspan x="10" y="954"> 58.  2017-04-03 13:17:49 +0000     7653 byte  out/readInstalled.js</tspan>
-<tspan x="10" y="970"> 59.  2017-04-03 13:17:49 +0000    11303 byte  out/readInstalled.js.map</tspan>
-<tspan x="10" y="986"> 60.  2017-04-03 13:17:49 +0000     2970 byte  out/repositoryInfo.js</tspan>
-<tspan x="10" y="1002"> 61.  2017-04-03 13:17:49 +0000     4140 byte  out/repositoryInfo.js.map</tspan>
-<tspan x="10" y="1018"> 62.  2017-04-03 13:17:49 +0000     3362 byte  out/targets/ArchiveTarget.js</tspan>
-<tspan x="10" y="1034"> 63.  2017-04-03 13:17:49 +0000     3960 byte  out/targets/ArchiveTarget.js.map</tspan>
-<tspan x="10" y="1050"> 64.  2017-04-03 13:17:49 +0000    10886 byte  out/targets/LinuxTargetHelper.js</tspan>
-<tspan x="10" y="1066"> 65.  2017-04-03 13:17:49 +0000    16056 byte  out/targets/LinuxTargetHelper.js.map</tspan>
-<tspan x="10" y="1082"> 66.  2017-04-03 13:17:49 +0000     2370 byte  out/targets/WebInstaller.js</tspan>
-<tspan x="10" y="1098"> 67.  2017-04-03 13:17:49 +0000     3242 byte  out/targets/WebInstaller.js.map</tspan>
-<tspan x="10" y="1114"> 68.  2017-04-03 13:17:49 +0000     7613 byte  out/targets/appImage.js</tspan>
-<tspan x="10" y="1130"> 69.  2017-04-03 13:17:49 +0000     9379 byte  out/targets/appImage.js.map</tspan>
-<tspan x="10" y="1146"> 70.  2017-04-03 13:17:49 +0000     7673 byte  out/targets/appx.js</tspan>
-<tspan x="10" y="1162"> 71.  2017-04-03 13:17:49 +0000     9666 byte  out/targets/appx.js.map</tspan>
-<tspan x="10" y="1178"> 72.  2017-04-03 13:17:49 +0000     5683 byte  out/targets/archive.js</tspan>
-<tspan x="10" y="1194"> 73.  2017-04-03 13:17:49 +0000     7846 byte  out/targets/archive.js.map</tspan>
-<tspan x="10" y="1210"> 74.  2017-04-03 13:17:49 +0000    15857 byte  out/targets/dmg.js</tspan>
-<tspan x="10" y="1226"> 75.  2017-04-03 13:17:49 +0000    22410 byte  out/targets/dmg.js.map</tspan>
-<tspan x="10" y="1242"> 76.  2017-04-03 13:17:49 +0000    11523 byte  out/targets/fpm.js</tspan>
-<tspan x="10" y="1258"> 77.  2017-04-03 13:17:49 +0000    16242 byte  out/targets/fpm.js.map</tspan>
-<tspan x="10" y="1274"> 78.  2017-04-03 13:17:49 +0000    30470 byte  out/targets/nsis.js</tspan>
-<tspan x="10" y="1290"> 79.  2017-04-03 13:17:49 +0000    46939 byte  out/targets/nsis.js.map</tspan>
-<tspan x="10" y="1306"> 80.  2017-04-03 13:17:49 +0000     5993 byte  out/targets/pkg.js</tspan>
-<tspan x="10" y="1322"> 81.  2017-04-03 13:17:49 +0000     7194 byte  out/targets/pkg.js.map</tspan>
-<tspan x="10" y="1338"> 82.  2017-04-03 13:17:49 +0000     7590 byte  out/targets/snap.js</tspan>
-<tspan x="10" y="1354"> 83.  2017-04-03 13:17:49 +0000    10596 byte  out/targets/snap.js.map</tspan>
-<tspan x="10" y="1370"> 84.  2017-04-03 13:17:49 +0000     4431 byte  out/targets/targetFactory.js</tspan>
-<tspan x="10" y="1386"> 85.  2017-04-03 13:17:49 +0000     6772 byte  out/targets/targetFactory.js.map</tspan>
-<tspan x="10" y="1402"> 86.  2017-04-03 13:17:49 +0000     2209 byte  out/util/filter.js</tspan>
-<tspan x="10" y="1418"> 87.  2017-04-03 13:17:49 +0000     3707 byte  out/util/filter.js.map</tspan>
-<tspan x="10" y="1434"> 88.  2017-04-03 13:17:49 +0000    10016 byte  out/util/readPackageJson.js</tspan>
-<tspan x="10" y="1450"> 89.  2017-04-03 13:17:49 +0000    14049 byte  out/util/readPackageJson.js.map</tspan>
-<tspan x="10" y="1466"> 90.  2017-04-03 13:17:49 +0000    13847 byte  out/winPackager.js</tspan>
-<tspan x="10" y="1482"> 91.  2017-04-03 13:17:49 +0000    19184 byte  out/winPackager.js.map</tspan>
-<tspan x="10" y="1498"> 92.  2017-04-03 13:17:49 +0000     6935 byte  out/windowsCodeSign.js</tspan>
-<tspan x="10" y="1514"> 93.  2017-04-03 13:17:49 +0000    10624 byte  out/windowsCodeSign.js.map</tspan>
-<tspan x="10" y="1530"> 94.  2017-04-03 13:17:49 +0000     7498 byte  out/yarn.js</tspan>
-<tspan x="10" y="1546"> 95.  2017-04-03 13:17:49 +0000     9233 byte  out/yarn.js.map</tspan>
-<tspan x="10" y="1562"> 96.  2017-04-03 13:17:49 +0000     3920 byte  package.json</tspan>
-<tspan x="10" y="1578"> 97.  2017-04-03 13:17:49 +0000   157557 byte  scheme.json</tspan>
-<tspan x="10" y="1594"> 98.  2017-04-03 13:17:49 +0000     1482 byte  templates/appx/appxmanifest.xml</tspan>
-<tspan x="10" y="1610"> 99.  2017-04-03 13:17:49 +0000    37298 byte  templates/dmg/background.tiff</tspan>
-<tspan x="10" y="1626">100.  2017-04-03 13:17:49 +0000     3106 byte  templates/dmg/dmgProperties.pl</tspan>
-<tspan x="10" y="1642">101.  2017-04-03 13:17:49 +0000     7736 byte  templates/linux/AppRun.sh</tspan>
-<tspan x="10" y="1658">102.  2017-04-03 13:17:49 +0000      112 byte  templates/linux/after-install.tpl</tspan>
-<tspan x="10" y="1674">103.  2017-04-03 13:17:49 +0000       82 byte  templates/linux/after-remove.tpl</tspan>
-<tspan x="10" y="1690">104.  2017-04-03 13:17:49 +0000      112 byte  templates/linux/desktop.tpl</tspan>
-<tspan x="10" y="1706">105.  2017-04-03 13:17:49 +0000    18107 byte  templates/linux/electron-icons/128x128.png</tspan>
-<tspan x="10" y="1722">106.  2017-04-03 13:17:49 +0000      832 byte  templates/linux/electron-icons/16x16.png</tspan>
-<tspan x="10" y="1738">107.  2017-04-03 13:17:49 +0000     1663 byte  templates/linux/electron-icons/24x24.png</tspan>
-<tspan x="10" y="1754">108.  2017-04-03 13:17:49 +0000    37977 byte  templates/linux/electron-icons/256x256.png</tspan>
-<tspan x="10" y="1770">109.  2017-04-03 13:17:49 +0000     2021 byte  templates/linux/electron-icons/32x32.png</tspan>
-<tspan x="10" y="1786">110.  2017-04-03 13:17:49 +0000     4476 byte  templates/linux/electron-icons/48x48.png</tspan>
-<tspan x="10" y="1802">111.  2017-04-03 13:17:49 +0000     6621 byte  templates/linux/electron-icons/64x64.png</tspan>
-<tspan x="10" y="1818">112.  2017-04-03 13:17:49 +0000    11888 byte  templates/linux/electron-icons/96x96.png</tspan>
-<tspan x="10" y="1834">113.  2017-04-03 13:17:49 +0000     4141 byte  templates/nsis/FileAssociation.nsh</tspan>
-<tspan x="10" y="1850">114.  2017-04-03 13:17:49 +0000     1629 byte  templates/nsis/allowOnlyOneInstallerInstance.nsh</tspan>
-<tspan x="10" y="1866">115.  2017-04-03 13:17:49 +0000     4022 byte  templates/nsis/boringInstaller.nsh</tspan>
-<tspan x="10" y="1882">116.  2017-04-03 13:17:49 +0000     2148 byte  templates/nsis/common.nsh</tspan>
-<tspan x="10" y="1898">117.  2017-04-03 13:17:49 +0000    13334 byte  templates/nsis/include/StdUtils.nsh</tspan>
-<tspan x="10" y="1914">118.  2017-04-03 13:17:49 +0000     1388 byte  templates/nsis/include/StrContains.nsh</tspan>
-<tspan x="10" y="1930">119.  2017-04-03 13:17:49 +0000     8743 byte  templates/nsis/include/UAC.nsh</tspan>
-<tspan x="10" y="1946">120.  2017-04-03 13:17:49 +0000     3731 byte  templates/nsis/include/getProcessInfo.nsh</tspan>
-<tspan x="10" y="1962">121.  2017-04-03 13:17:49 +0000      692 byte  templates/nsis/include/nsProcess.nsh</tspan>
-<tspan x="10" y="1978">122.  2017-04-03 13:17:49 +0000     5467 byte  templates/nsis/installSection.nsh</tspan>
-<tspan x="10" y="1994">123.  2017-04-03 13:17:49 +0000      802 byte  templates/nsis/installUtil.nsh</tspan>
-<tspan x="10" y="2010">124.  2017-04-03 13:17:49 +0000     1334 byte  templates/nsis/installer.nsi</tspan>
-<tspan x="10" y="2026">125.  2017-04-03 13:17:49 +0000     2416 byte  templates/nsis/langs.nsh</tspan>
-<tspan x="10" y="2042">126.  2017-04-03 13:17:49 +0000     2325 byte  templates/nsis/multiUser.nsh</tspan>
-<tspan x="10" y="2058">127.  2017-04-03 13:17:49 +0000     9158 byte  templates/nsis/multiUserUi.nsh</tspan>
-<tspan x="10" y="2074">128.  2017-04-03 13:17:49 +0000      959 byte  templates/nsis/oneClick.nsh</tspan>
-<tspan x="10" y="2090">129.  2017-04-03 13:17:49 +0000      386 byte  templates/nsis/portable.nsi</tspan>
-<tspan x="10" y="2106">130.  2017-04-03 13:17:49 +0000     2029 byte  templates/nsis/readme.md</tspan>
-<tspan x="10" y="2122">131.  2017-04-03 13:17:49 +0000     2144 byte  templates/nsis/uninstaller.nsh</tspan>
-<tspan x="10" y="2138">132.  2017-04-03 13:17:49 +0000    19861 byte  vendor/Mac/Finder/DSStore.pm</tspan>
-<tspan x="10" y="2154">133.  2017-04-03 13:17:49 +0000    20296 byte  vendor/Mac/Finder/DSStore/BuddyAllocator.pm</tspan>
-<tspan x="10" y="2170">134.  2017-04-03 13:17:49 +0000    17862 byte  vendor/Mac/Finder/DSStore/Format.pod</tspan>
+<tspan x="10" y="26">  0.  2017-04-16 09:17:08 +0000  1459035 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-16 09:17:08 +0000    11427 bytes  README.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-16 09:17:08 +0000    31944 bytes  certs/root_certs.keychain</tspan>
+<tspan x="10" y="74">  3.  2017-04-16 09:17:08 +0000     3799 bytes  out/appInfo.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-16 09:17:08 +0000     5710 bytes  out/appInfo.js.map</tspan>
+<tspan x="10" y="106">  5.  2017-04-16 09:17:08 +0000     6382 bytes  out/asar.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-16 09:17:08 +0000     8921 bytes  out/asar.js.map</tspan>
+<tspan x="10" y="138">  7.  2017-04-16 09:17:08 +0000    19853 bytes  out/asarUtil.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-16 09:17:08 +0000    29131 bytes  out/asarUtil.js.map</tspan>
+<tspan x="10" y="170">  9.  2017-04-16 09:17:08 +0000     9266 bytes  out/builder.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-16 09:17:08 +0000    13642 bytes  out/builder.js.map</tspan>
+<tspan x="10" y="202"> 11.  2017-04-16 09:17:08 +0000     2333 bytes  out/cli/build-cli.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-16 09:17:08 +0000     2478 bytes  out/cli/build-cli.js.map</tspan>
+<tspan x="10" y="234"> 13.  2017-04-16 09:17:08 +0000     4115 bytes  out/cli/cliOptions.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-16 09:17:08 +0000     6706 bytes  out/cli/cliOptions.js.map</tspan>
+<tspan x="10" y="266"> 15.  2017-04-16 09:17:08 +0000     3673 bytes  out/cli/create-self-signed-cert.js</tspan>
+<tspan x="10" y="282"> 16.  2017-04-16 09:17:08 +0000     3826 bytes  out/cli/create-self-signed-cert.js.map</tspan>
+<tspan x="10" y="298"> 17.  2017-04-16 09:17:08 +0000     2537 bytes  out/cli/install-app-deps.js</tspan>
+<tspan x="10" y="314"> 18.  2017-04-16 09:17:08 +0000     2758 bytes  out/cli/install-app-deps.js.map</tspan>
+<tspan x="10" y="330"> 19.  2017-04-16 09:17:08 +0000     2121 bytes  out/cli/node-gyp-rebuild.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-16 09:17:08 +0000     2335 bytes  out/cli/node-gyp-rebuild.js.map</tspan>
+<tspan x="10" y="362"> 21.  2017-04-16 09:17:08 +0000    13140 bytes  out/codeSign.js</tspan>
+<tspan x="10" y="378"> 22.  2017-04-16 09:17:08 +0000    17716 bytes  out/codeSign.js.map</tspan>
+<tspan x="10" y="394"> 23.  2017-04-16 09:17:08 +0000    73182 bytes  out/electron-builder.d.ts</tspan>
+<tspan x="10" y="410"> 24.  2017-04-16 09:17:08 +0000      531 bytes  out/errorMessages.js</tspan>
+<tspan x="10" y="426"> 25.  2017-04-16 09:17:08 +0000      609 bytes  out/errorMessages.js.map</tspan>
+<tspan x="10" y="442"> 26.  2017-04-16 09:17:08 +0000     8329 bytes  out/fileMatcher.js</tspan>
+<tspan x="10" y="458"> 27.  2017-04-16 09:17:08 +0000    13067 bytes  out/fileMatcher.js.map</tspan>
+<tspan x="10" y="474"> 28.  2017-04-16 09:17:08 +0000     4295 bytes  out/fileTransformer.js</tspan>
+<tspan x="10" y="490"> 29.  2017-04-16 09:17:08 +0000     5571 bytes  out/fileTransformer.js.map</tspan>
+<tspan x="10" y="506"> 30.  2017-04-16 09:17:08 +0000      965 bytes  out/forge/forge-maker.js</tspan>
+<tspan x="10" y="522"> 31.  2017-04-16 09:17:08 +0000      971 bytes  out/forge/forge-maker.js.map</tspan>
+<tspan x="10" y="538"> 32.  2017-04-16 09:17:08 +0000     2126 bytes  out/index.js</tspan>
+<tspan x="10" y="554"> 33.  2017-04-16 09:17:08 +0000     1255 bytes  out/index.js.map</tspan>
+<tspan x="10" y="570"> 34.  2017-04-16 09:17:08 +0000     3501 bytes  out/linuxPackager.js</tspan>
+<tspan x="10" y="586"> 35.  2017-04-16 09:17:08 +0000     4522 bytes  out/linuxPackager.js.map</tspan>
+<tspan x="10" y="602"> 36.  2017-04-16 09:17:08 +0000    13833 bytes  out/macPackager.js</tspan>
+<tspan x="10" y="618"> 37.  2017-04-16 09:17:08 +0000    18947 bytes  out/macPackager.js.map</tspan>
+<tspan x="10" y="634"> 38.  2017-04-16 09:17:08 +0000       50 bytes  out/metadata.js</tspan>
+<tspan x="10" y="650"> 39.  2017-04-16 09:17:08 +0000    10244 bytes  out/metadata.js.map</tspan>
+<tspan x="10" y="666"> 40.  2017-04-16 09:17:08 +0000       54 bytes  out/options/linuxOptions.js</tspan>
+<tspan x="10" y="682"> 41.  2017-04-16 09:17:08 +0000     6611 bytes  out/options/linuxOptions.js.map</tspan>
+<tspan x="10" y="698"> 42.  2017-04-16 09:17:08 +0000       52 bytes  out/options/macOptions.js</tspan>
+<tspan x="10" y="714"> 43.  2017-04-16 09:17:08 +0000     7858 bytes  out/options/macOptions.js.map</tspan>
+<tspan x="10" y="730"> 44.  2017-04-16 09:17:08 +0000       52 bytes  out/options/winOptions.js</tspan>
+<tspan x="10" y="746"> 45.  2017-04-16 09:17:08 +0000    13605 bytes  out/options/winOptions.js.map</tspan>
+<tspan x="10" y="762"> 46.  2017-04-16 09:17:08 +0000    24981 bytes  out/packager.js</tspan>
+<tspan x="10" y="778"> 47.  2017-04-16 09:17:08 +0000    34411 bytes  out/packager.js.map</tspan>
+<tspan x="10" y="794"> 48.  2017-04-16 09:17:08 +0000     4394 bytes  out/packager/dirPackager.js</tspan>
+<tspan x="10" y="810"> 49.  2017-04-16 09:17:08 +0000     5747 bytes  out/packager/dirPackager.js.map</tspan>
+<tspan x="10" y="826"> 50.  2017-04-16 09:17:08 +0000    11135 bytes  out/packager/mac.js</tspan>
+<tspan x="10" y="842"> 51.  2017-04-16 09:17:08 +0000    14874 bytes  out/packager/mac.js.map</tspan>
+<tspan x="10" y="858"> 52.  2017-04-16 09:17:08 +0000       53 bytes  out/packagerApi.js</tspan>
+<tspan x="10" y="874"> 53.  2017-04-16 09:17:08 +0000     2703 bytes  out/packagerApi.js.map</tspan>
+<tspan x="10" y="890"> 54.  2017-04-16 09:17:08 +0000    25972 bytes  out/platformPackager.js</tspan>
+<tspan x="10" y="906"> 55.  2017-04-16 09:17:08 +0000    39286 bytes  out/platformPackager.js.map</tspan>
+<tspan x="10" y="922"> 56.  2017-04-16 09:17:08 +0000    24919 bytes  out/publish/PublishManager.js</tspan>
+<tspan x="10" y="938"> 57.  2017-04-16 09:17:08 +0000    36187 bytes  out/publish/PublishManager.js.map</tspan>
+<tspan x="10" y="954"> 58.  2017-04-16 09:17:08 +0000     7653 bytes  out/readInstalled.js</tspan>
+<tspan x="10" y="970"> 59.  2017-04-16 09:17:08 +0000    11303 bytes  out/readInstalled.js.map</tspan>
+<tspan x="10" y="986"> 60.  2017-04-16 09:17:08 +0000     2970 bytes  out/repositoryInfo.js</tspan>
+<tspan x="10" y="1002"> 61.  2017-04-16 09:17:08 +0000     4140 bytes  out/repositoryInfo.js.map</tspan>
+<tspan x="10" y="1018"> 62.  2017-04-16 09:17:08 +0000     3362 bytes  out/targets/ArchiveTarget.js</tspan>
+<tspan x="10" y="1034"> 63.  2017-04-16 09:17:08 +0000     3960 bytes  out/targets/ArchiveTarget.js.map</tspan>
+<tspan x="10" y="1050"> 64.  2017-04-16 09:17:08 +0000    10858 bytes  out/targets/LinuxTargetHelper.js</tspan>
+<tspan x="10" y="1066"> 65.  2017-04-16 09:17:08 +0000    16065 bytes  out/targets/LinuxTargetHelper.js.map</tspan>
+<tspan x="10" y="1082"> 66.  2017-04-16 09:17:08 +0000     2342 bytes  out/targets/WebInstallerTarget.js</tspan>
+<tspan x="10" y="1098"> 67.  2017-04-16 09:17:08 +0000     3327 bytes  out/targets/WebInstallerTarget.js.map</tspan>
+<tspan x="10" y="1114"> 68.  2017-04-16 09:17:08 +0000     7613 bytes  out/targets/appImage.js</tspan>
+<tspan x="10" y="1130"> 69.  2017-04-16 09:17:08 +0000     9379 bytes  out/targets/appImage.js.map</tspan>
+<tspan x="10" y="1146"> 70.  2017-04-16 09:17:08 +0000     7673 bytes  out/targets/appx.js</tspan>
+<tspan x="10" y="1162"> 71.  2017-04-16 09:17:08 +0000     9666 bytes  out/targets/appx.js.map</tspan>
+<tspan x="10" y="1178"> 72.  2017-04-16 09:17:08 +0000     5683 bytes  out/targets/archive.js</tspan>
+<tspan x="10" y="1194"> 73.  2017-04-16 09:17:08 +0000     7846 bytes  out/targets/archive.js.map</tspan>
+<tspan x="10" y="1210"> 74.  2017-04-16 09:17:08 +0000    15980 bytes  out/targets/dmg.js</tspan>
+<tspan x="10" y="1226"> 75.  2017-04-16 09:17:08 +0000    22629 bytes  out/targets/dmg.js.map</tspan>
+<tspan x="10" y="1242"> 76.  2017-04-16 09:17:08 +0000    11522 bytes  out/targets/fpm.js</tspan>
+<tspan x="10" y="1258"> 77.  2017-04-16 09:17:08 +0000    16353 bytes  out/targets/fpm.js.map</tspan>
+<tspan x="10" y="1274"> 78.  2017-04-16 09:17:08 +0000    36164 bytes  out/targets/nsis.js</tspan>
+<tspan x="10" y="1290"> 79.  2017-04-16 09:17:08 +0000    53811 bytes  out/targets/nsis.js.map</tspan>
+<tspan x="10" y="1306"> 80.  2017-04-16 09:17:08 +0000     5993 bytes  out/targets/pkg.js</tspan>
+<tspan x="10" y="1322"> 81.  2017-04-16 09:17:08 +0000     7194 bytes  out/targets/pkg.js.map</tspan>
+<tspan x="10" y="1338"> 82.  2017-04-16 09:17:08 +0000     7618 bytes  out/targets/snap.js</tspan>
+<tspan x="10" y="1354"> 83.  2017-04-16 09:17:08 +0000    10626 bytes  out/targets/snap.js.map</tspan>
+<tspan x="10" y="1370"> 84.  2017-04-16 09:17:08 +0000     4431 bytes  out/targets/targetFactory.js</tspan>
+<tspan x="10" y="1386"> 85.  2017-04-16 09:17:08 +0000     6772 bytes  out/targets/targetFactory.js.map</tspan>
+<tspan x="10" y="1402"> 86.  2017-04-16 09:17:08 +0000     2209 bytes  out/util/filter.js</tspan>
+<tspan x="10" y="1418"> 87.  2017-04-16 09:17:08 +0000     3707 bytes  out/util/filter.js.map</tspan>
+<tspan x="10" y="1434"> 88.  2017-04-16 09:17:08 +0000    10016 bytes  out/util/readPackageJson.js</tspan>
+<tspan x="10" y="1450"> 89.  2017-04-16 09:17:08 +0000    14049 bytes  out/util/readPackageJson.js.map</tspan>
+<tspan x="10" y="1466"> 90.  2017-04-16 09:17:08 +0000    14500 bytes  out/winPackager.js</tspan>
+<tspan x="10" y="1482"> 91.  2017-04-16 09:17:08 +0000    20090 bytes  out/winPackager.js.map</tspan>
+<tspan x="10" y="1498"> 92.  2017-04-16 09:17:08 +0000     6935 bytes  out/windowsCodeSign.js</tspan>
+<tspan x="10" y="1514"> 93.  2017-04-16 09:17:08 +0000    10624 bytes  out/windowsCodeSign.js.map</tspan>
+<tspan x="10" y="1530"> 94.  2017-04-16 09:17:08 +0000     8006 bytes  out/yarn.js</tspan>
+<tspan x="10" y="1546"> 95.  2017-04-16 09:17:08 +0000    10187 bytes  out/yarn.js.map</tspan>
+<tspan x="10" y="1562"> 96.  2017-04-16 09:17:08 +0000     3917 bytes  package.json</tspan>
+<tspan x="10" y="1578"> 97.  2017-04-16 09:17:08 +0000   163772 bytes  scheme.json</tspan>
+<tspan x="10" y="1594"> 98.  2017-04-16 09:17:08 +0000     1482 bytes  templates/appx/appxmanifest.xml</tspan>
+<tspan x="10" y="1610"> 99.  2017-04-16 09:17:08 +0000    37298 bytes  templates/dmg/background.tiff</tspan>
+<tspan x="10" y="1626">100.  2017-04-16 09:17:08 +0000     3106 bytes  templates/dmg/dmgProperties.pl</tspan>
+<tspan x="10" y="1642">101.  2017-04-16 09:17:08 +0000     7736 bytes  templates/linux/AppRun.sh</tspan>
+<tspan x="10" y="1658">102.  2017-04-16 09:17:08 +0000      112 bytes  templates/linux/after-install.tpl</tspan>
+<tspan x="10" y="1674">103.  2017-04-16 09:17:08 +0000       82 bytes  templates/linux/after-remove.tpl</tspan>
+<tspan x="10" y="1690">104.  2017-04-16 09:17:08 +0000      112 bytes  templates/linux/desktop.tpl</tspan>
+<tspan x="10" y="1706">105.  2017-04-16 09:17:08 +0000    18107 bytes  templates/linux/electron-icons/128x128.png</tspan>
+<tspan x="10" y="1722">106.  2017-04-16 09:17:08 +0000      832 bytes  templates/linux/electron-icons/16x16.png</tspan>
+<tspan x="10" y="1738">107.  2017-04-16 09:17:08 +0000     1663 bytes  templates/linux/electron-icons/24x24.png</tspan>
+<tspan x="10" y="1754">108.  2017-04-16 09:17:08 +0000    37977 bytes  templates/linux/electron-icons/256x256.png</tspan>
+<tspan x="10" y="1770">109.  2017-04-16 09:17:08 +0000     2021 bytes  templates/linux/electron-icons/32x32.png</tspan>
+<tspan x="10" y="1786">110.  2017-04-16 09:17:08 +0000     4476 bytes  templates/linux/electron-icons/48x48.png</tspan>
+<tspan x="10" y="1802">111.  2017-04-16 09:17:08 +0000     6621 bytes  templates/linux/electron-icons/64x64.png</tspan>
+<tspan x="10" y="1818">112.  2017-04-16 09:17:08 +0000    11888 bytes  templates/linux/electron-icons/96x96.png</tspan>
+<tspan x="10" y="1834">113.  2017-04-16 09:17:08 +0000     4141 bytes  templates/nsis/FileAssociation.nsh</tspan>
+<tspan x="10" y="1850">114.  2017-04-16 09:17:08 +0000     1556 bytes  templates/nsis/allowOnlyOneInstallerInstance.nsh</tspan>
+<tspan x="10" y="1866">115.  2017-04-16 09:17:08 +0000     4022 bytes  templates/nsis/boringInstaller.nsh</tspan>
+<tspan x="10" y="1882">116.  2017-04-16 09:17:08 +0000      739 bytes  templates/nsis/boringMessages.yml</tspan>
+<tspan x="10" y="1898">117.  2017-04-16 09:17:08 +0000     2123 bytes  templates/nsis/common.nsh</tspan>
+<tspan x="10" y="1914">118.  2017-04-16 09:17:08 +0000    13334 bytes  templates/nsis/include/StdUtils.nsh</tspan>
+<tspan x="10" y="1930">119.  2017-04-16 09:17:08 +0000     1388 bytes  templates/nsis/include/StrContains.nsh</tspan>
+<tspan x="10" y="1946">120.  2017-04-16 09:17:08 +0000     8743 bytes  templates/nsis/include/UAC.nsh</tspan>
+<tspan x="10" y="1962">121.  2017-04-16 09:17:08 +0000     3731 bytes  templates/nsis/include/getProcessInfo.nsh</tspan>
+<tspan x="10" y="1978">122.  2017-04-16 09:17:08 +0000      692 bytes  templates/nsis/include/nsProcess.nsh</tspan>
+<tspan x="10" y="1994">123.  2017-04-16 09:17:08 +0000     5542 bytes  templates/nsis/installSection.nsh</tspan>
+<tspan x="10" y="2010">124.  2017-04-16 09:17:08 +0000      802 bytes  templates/nsis/installUtil.nsh</tspan>
+<tspan x="10" y="2026">125.  2017-04-16 09:17:08 +0000     1334 bytes  templates/nsis/installer.nsi</tspan>
+<tspan x="10" y="2042">126.  2017-04-16 09:17:08 +0000     2416 bytes  templates/nsis/langs.nsh</tspan>
+<tspan x="10" y="2058">127.  2017-04-16 09:17:08 +0000      372 bytes  templates/nsis/messages.yml</tspan>
+<tspan x="10" y="2074">128.  2017-04-16 09:17:08 +0000     2325 bytes  templates/nsis/multiUser.nsh</tspan>
+<tspan x="10" y="2090">129.  2017-04-16 09:17:08 +0000     9077 bytes  templates/nsis/multiUserUi.nsh</tspan>
+<tspan x="10" y="2106">130.  2017-04-16 09:17:08 +0000      959 bytes  templates/nsis/oneClick.nsh</tspan>
+<tspan x="10" y="2122">131.  2017-04-16 09:17:08 +0000      408 bytes  templates/nsis/portable.nsi</tspan>
+<tspan x="10" y="2138">132.  2017-04-16 09:17:08 +0000     2029 bytes  templates/nsis/readme.md</tspan>
+<tspan x="10" y="2154">133.  2017-04-16 09:17:08 +0000     2120 bytes  templates/nsis/uninstaller.nsh</tspan>
+<tspan x="10" y="2170">134.  2017-04-16 09:17:08 +0000    19861 bytes  vendor/Mac/Finder/DSStore.pm</tspan>
+<tspan x="10" y="2186">135.  2017-04-16 09:17:08 +0000    20296 bytes  vendor/Mac/Finder/DSStore/BuddyAllocator.pm</tspan>
+<tspan x="10" y="2202">136.  2017-04-16 09:17:08 +0000    17862 bytes  vendor/Mac/Finder/DSStore/Format.pod</tspan>
 </text>
 </svg>
